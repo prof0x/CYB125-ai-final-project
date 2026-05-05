@@ -1,0 +1,2565 @@
+{
+  "snapshot_metadata": {
+    "schema_version": "1.0",
+    "timestamp_utc": "2026-05-04T19:33:41.734949Z",
+    "hostname": "CYB125-210Win50",
+    "generated_by_user": "Student",
+    "elevated": true,
+    "script_version": "1.0.0",
+    "python_version": "3.13.12",
+    "collection_duration_seconds": 10.93,
+    "collection_warnings": []
+  },
+  "system_identity": {
+    "os_name": "Windows 10 Education",
+    "os_build": "22631",
+    "os_edition": "Education",
+    "registered_owner": "Student",
+    "install_date_utc": "2024-12-19T19:30:57Z"
+  },
+  "hardware_profile": {
+    "cpu": {
+      "name": "Intel(R) Xeon(R) Platinum 8280 CPU @ 2.70GHz",
+      "manufacturer": "GenuineIntel",
+      "max_clock_mhz": 2694,
+      "architecture": "AMD64",
+      "logical_processors": 2
+    },
+    "memory": {
+      "total_physical_bytes": 8580497408
+    },
+    "bios": {
+      "manufacturer": "Xen",
+      "version": "4.17",
+      "release_date": "03/24/2026"
+    },
+    "system": {
+      "manufacturer": "Xen",
+      "model": "HVM domU"
+    },
+    "logical_disks": [
+      {
+        "drive_letter": "C:",
+        "filesystem": "NTFS",
+        "total_size_bytes": 53008658432,
+        "free_space_bytes": 20086620160
+      },
+      {
+        "drive_letter": "D:",
+        "filesystem": "",
+        "total_size_bytes": null,
+        "free_space_bytes": null
+      }
+    ]
+  },
+  "network_configuration": {
+    "primary_dns_suffix": "",
+    "adapters": [
+      {
+        "name": "Ethernet adapter Ethernet 2",
+        "description": "",
+        "mac_address": "",
+        "dhcp_enabled": false,
+        "ipv4_addresses": [],
+        "ipv4_subnet_mask": null,
+        "default_gateway": null,
+        "dns_servers": []
+      }
+    ]
+  },
+  "listening_ports": [
+    {
+      "protocol": "TCP",
+      "local_address": "0.0.0.0",
+      "local_port": 135,
+      "state": "LISTENING",
+      "owning_pid": 600,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "0.0.0.0",
+      "local_port": 445,
+      "state": "LISTENING",
+      "owning_pid": 4,
+      "owning_process_name": "System"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "0.0.0.0",
+      "local_port": 3389,
+      "state": "LISTENING",
+      "owning_pid": 1068,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "0.0.0.0",
+      "local_port": 5040,
+      "state": "LISTENING",
+      "owning_pid": 2808,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "0.0.0.0",
+      "local_port": 7680,
+      "state": "LISTENING",
+      "owning_pid": 5116,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "0.0.0.0",
+      "local_port": 43910,
+      "state": "LISTENING",
+      "owning_pid": 3088,
+      "owning_process_name": "UDSActorService.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "0.0.0.0",
+      "local_port": 49664,
+      "state": "LISTENING",
+      "owning_pid": 848,
+      "owning_process_name": "lsass.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "0.0.0.0",
+      "local_port": 49665,
+      "state": "LISTENING",
+      "owning_pid": 684,
+      "owning_process_name": "wininit.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "0.0.0.0",
+      "local_port": 49666,
+      "state": "LISTENING",
+      "owning_pid": 1664,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "0.0.0.0",
+      "local_port": 49667,
+      "state": "LISTENING",
+      "owning_pid": 1804,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "0.0.0.0",
+      "local_port": 49668,
+      "state": "LISTENING",
+      "owning_pid": 1752,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "0.0.0.0",
+      "local_port": 49669,
+      "state": "LISTENING",
+      "owning_pid": 2868,
+      "owning_process_name": "spoolsv.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "0.0.0.0",
+      "local_port": 49674,
+      "state": "LISTENING",
+      "owning_pid": 824,
+      "owning_process_name": "services.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "127.0.0.1",
+      "local_port": 51044,
+      "state": "LISTENING",
+      "owning_pid": 2584,
+      "owning_process_name": "UDSActorClient.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "127.0.0.1",
+      "local_port": 64440,
+      "state": "LISTENING",
+      "owning_pid": 9628,
+      "owning_process_name": "Code.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "172.16.16.6",
+      "local_port": 139,
+      "state": "LISTENING",
+      "owning_pid": 4,
+      "owning_process_name": "System"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "[::]",
+      "local_port": 135,
+      "state": "LISTENING",
+      "owning_pid": 600,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "[::]",
+      "local_port": 445,
+      "state": "LISTENING",
+      "owning_pid": 4,
+      "owning_process_name": "System"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "[::]",
+      "local_port": 3389,
+      "state": "LISTENING",
+      "owning_pid": 1068,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "[::]",
+      "local_port": 7680,
+      "state": "LISTENING",
+      "owning_pid": 5116,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "[::]",
+      "local_port": 49664,
+      "state": "LISTENING",
+      "owning_pid": 848,
+      "owning_process_name": "lsass.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "[::]",
+      "local_port": 49665,
+      "state": "LISTENING",
+      "owning_pid": 684,
+      "owning_process_name": "wininit.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "[::]",
+      "local_port": 49666,
+      "state": "LISTENING",
+      "owning_pid": 1664,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "[::]",
+      "local_port": 49667,
+      "state": "LISTENING",
+      "owning_pid": 1804,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "[::]",
+      "local_port": 49668,
+      "state": "LISTENING",
+      "owning_pid": 1752,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "[::]",
+      "local_port": 49669,
+      "state": "LISTENING",
+      "owning_pid": 2868,
+      "owning_process_name": "spoolsv.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "[::]",
+      "local_port": 49674,
+      "state": "LISTENING",
+      "owning_pid": 824,
+      "owning_process_name": "services.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "[::1]",
+      "local_port": 42050,
+      "state": "LISTENING",
+      "owning_pid": 10756,
+      "owning_process_name": "OneDrive.Sync.Service.exe"
+    },
+    {
+      "protocol": "TCP",
+      "local_address": "[::1]",
+      "local_port": 42050,
+      "state": "LISTENING",
+      "owning_pid": 10756,
+      "owning_process_name": "OneDrive.Sync.Service.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "0.0.0.0",
+      "local_port": 123,
+      "state": null,
+      "owning_pid": 3556,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "0.0.0.0",
+      "local_port": 3389,
+      "state": null,
+      "owning_pid": 1068,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "0.0.0.0",
+      "local_port": 5050,
+      "state": null,
+      "owning_pid": 2808,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "state": null,
+      "owning_pid": 1736,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "state": null,
+      "owning_pid": 11964,
+      "owning_process_name": "msedge.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "0.0.0.0",
+      "local_port": 5353,
+      "state": null,
+      "owning_pid": 11964,
+      "owning_process_name": "msedge.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "0.0.0.0",
+      "local_port": 5355,
+      "state": null,
+      "owning_pid": 1736,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "0.0.0.0",
+      "local_port": 55072,
+      "state": null,
+      "owning_pid": 1736,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "0.0.0.0",
+      "local_port": 64085,
+      "state": null,
+      "owning_pid": 1736,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "0.0.0.0",
+      "local_port": 64450,
+      "state": null,
+      "owning_pid": 1736,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "127.0.0.1",
+      "local_port": 1900,
+      "state": null,
+      "owning_pid": 3328,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "127.0.0.1",
+      "local_port": 50458,
+      "state": null,
+      "owning_pid": 1448,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "127.0.0.1",
+      "local_port": 64451,
+      "state": null,
+      "owning_pid": 3036,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "127.0.0.1",
+      "local_port": 64909,
+      "state": null,
+      "owning_pid": 3328,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "172.16.16.6",
+      "local_port": 137,
+      "state": null,
+      "owning_pid": 4,
+      "owning_process_name": "System"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "172.16.16.6",
+      "local_port": 138,
+      "state": null,
+      "owning_pid": 4,
+      "owning_process_name": "System"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "172.16.16.6",
+      "local_port": 1900,
+      "state": null,
+      "owning_pid": 3328,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "172.16.16.6",
+      "local_port": 64908,
+      "state": null,
+      "owning_pid": 3328,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "[::]",
+      "local_port": 123,
+      "state": null,
+      "owning_pid": 3556,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "[::]",
+      "local_port": 3389,
+      "state": null,
+      "owning_pid": 1068,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "[::]",
+      "local_port": 5353,
+      "state": null,
+      "owning_pid": 11964,
+      "owning_process_name": "msedge.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "[::]",
+      "local_port": 5353,
+      "state": null,
+      "owning_pid": 1736,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "[::]",
+      "local_port": 5355,
+      "state": null,
+      "owning_pid": 1736,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "[::]",
+      "local_port": 55072,
+      "state": null,
+      "owning_pid": 1736,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "[::]",
+      "local_port": 64085,
+      "state": null,
+      "owning_pid": 1736,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "[::]",
+      "local_port": 64450,
+      "state": null,
+      "owning_pid": 1736,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "[::1]",
+      "local_port": 1900,
+      "state": null,
+      "owning_pid": 3328,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "[::1]",
+      "local_port": 64907,
+      "state": null,
+      "owning_pid": 3328,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "[fe80::d50f:2ab7:1f4c:3bbf%6]",
+      "local_port": 1900,
+      "state": null,
+      "owning_pid": 3328,
+      "owning_process_name": "svchost.exe"
+    },
+    {
+      "protocol": "UDP",
+      "local_address": "[fe80::d50f:2ab7:1f4c:3bbf%6]",
+      "local_port": 64906,
+      "state": null,
+      "owning_pid": 3328,
+      "owning_process_name": "svchost.exe"
+    }
+  ],
+  "local_user_accounts": {
+    "current_user": "cyb125-210win50\\student",
+    "users": [
+      {
+        "username": "Administrator"
+      },
+      {
+        "username": "DefaultAccount"
+      },
+      {
+        "username": "Guest"
+      },
+      {
+        "username": "Student"
+      },
+      {
+        "username": "WDAGUtilityAccount"
+      }
+    ],
+    "administrators_group_members": [
+      "Administrator",
+      "Student"
+    ]
+  },
+  "password_policy": {
+    "minimum_password_age_days": 0,
+    "maximum_password_age_days": 42,
+    "minimum_password_length": 0,
+    "password_history_length": null,
+    "lockout_threshold": 10,
+    "lockout_duration_minutes": 10,
+    "lockout_observation_window_minutes": 10
+  },
+  "auto_start_services": [
+    {
+      "name": "AudioEndpointBuilder",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "Audiosrv",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+      "log_on_as": "NT AUTHORITY\\LocalService"
+    },
+    {
+      "name": "BFE",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k LocalServiceNoNetworkFirewall -p",
+      "log_on_as": "NT AUTHORITY\\LocalService"
+    },
+    {
+      "name": "BrokerInfrastructure",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k DcomLaunch -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "CDPSvc",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START  (DELAYED)",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k LocalService -p",
+      "log_on_as": "NT AUTHORITY\\LocalService"
+    },
+    {
+      "name": "CoreMessagingRegistrar",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k LocalServiceNoNetwork -p",
+      "log_on_as": "NT AUTHORITY\\LocalService"
+    },
+    {
+      "name": "CryptSvc",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p",
+      "log_on_as": "NT Authority\\NetworkService"
+    },
+    {
+      "name": "DcomLaunch",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k DcomLaunch -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "Dhcp",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+      "log_on_as": "NT Authority\\LocalService"
+    },
+    {
+      "name": "DiagTrack",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\System32\\svchost.exe -k utcsvc -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "DispBrokerDesktopSvc",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k LocalService -p",
+      "log_on_as": "NT AUTHORITY\\LocalService"
+    },
+    {
+      "name": "Dnscache",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k NetworkService -p",
+      "log_on_as": "NT AUTHORITY\\NetworkService"
+    },
+    {
+      "name": "DoSvc",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START  (DELAYED)",
+      "executable_path": "C:\\Windows\\System32\\svchost.exe -k NetworkService -p",
+      "log_on_as": "NT Authority\\NetworkService"
+    },
+    {
+      "name": "DPS",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\System32\\svchost.exe -k LocalServiceNoNetwork -p",
+      "log_on_as": "NT AUTHORITY\\LocalService"
+    },
+    {
+      "name": "DusmSvc",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+      "log_on_as": "NT Authority\\LocalService"
+    },
+    {
+      "name": "EventLog",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+      "log_on_as": "NT AUTHORITY\\LocalService"
+    },
+    {
+      "name": "EventSystem",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k LocalService -p",
+      "log_on_as": "NT AUTHORITY\\LocalService"
+    },
+    {
+      "name": "FontCache",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k LocalService -p",
+      "log_on_as": "NT AUTHORITY\\LocalService"
+    },
+    {
+      "name": "gpsvc",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k netsvcs -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "iphlpsvc",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\System32\\svchost.exe -k NetSvcs -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "LanmanServer",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k netsvcs -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "LanmanWorkstation",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\System32\\svchost.exe -k NetworkService -p",
+      "log_on_as": "NT AUTHORITY\\NetworkService"
+    },
+    {
+      "name": "LSM",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k DcomLaunch -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "MDCoreSvc",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "\"C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26030.3011-0\\MpDefenderCoreService.exe\"",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "mpssvc",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k LocalServiceNoNetworkFirewall -p",
+      "log_on_as": "NT Authority\\LocalService"
+    },
+    {
+      "name": "nsi",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k LocalService -p",
+      "log_on_as": "NT Authority\\LocalService"
+    },
+    {
+      "name": "PcaSvc",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START  (DELAYED)",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "Power",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k DcomLaunch -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "ProfSvc",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k UserProfileService -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "RpcEptMapper",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k RPCSS -p",
+      "log_on_as": "NT AUTHORITY\\NetworkService"
+    },
+    {
+      "name": "RpcSs",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k rpcss -p",
+      "log_on_as": "NT AUTHORITY\\NetworkService"
+    },
+    {
+      "name": "SamSs",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\lsass.exe",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "Schedule",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k netsvcs -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "SENS",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k netsvcs -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "ShellHWDetection",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\System32\\svchost.exe -k netsvcs -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "Spooler",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\System32\\spoolsv.exe",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "StateRepository",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k appmodel -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "StorSvc",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START  (DELAYED)",
+      "executable_path": "C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "SysMain",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "SystemEventsBroker",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k DcomLaunch -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "TextInputManagementService",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "Themes",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\System32\\svchost.exe -k netsvcs -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "TrkWks",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "UDSActorNG",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "\"C:\\Program Files\\UDSActor\\UDSActorService.exe\"",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "uhssvc",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START  (DELAYED)",
+      "executable_path": "\"C:\\Program Files\\Microsoft Update Health Tools\\uhssvc.exe\"",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "UserManager",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k netsvcs -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "UsoSvc",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START  (DELAYED)",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k netsvcs -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "W32Time",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START  (DELAYED)",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k LocalService",
+      "log_on_as": "NT AUTHORITY\\LocalService"
+    },
+    {
+      "name": "Wcmsvc",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+      "log_on_as": "NT Authority\\LocalService"
+    },
+    {
+      "name": "WinDefend",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "\"C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26030.3011-0\\MsMpEng.exe\"",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "Winmgmt",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k netsvcs -p",
+      "log_on_as": "localSystem"
+    },
+    {
+      "name": "WpnService",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k netsvcs -p",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "wscsvc",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START  (DELAYED)",
+      "executable_path": "C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+      "log_on_as": "NT AUTHORITY\\LocalService"
+    },
+    {
+      "name": "WSearch",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START  (DELAYED)",
+      "executable_path": "C:\\Windows\\system32\\SearchIndexer.exe /Embedding",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "xenagent",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\System32\\xenagent_9_1_12_94.exe",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "xenbus_monitor",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\System32\\xenbus_monitor_9_1_11_115.exe",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "XenSvc",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "\"C:\\Program Files\\XenServer\\XenTools\\xenguestagent.exe\"",
+      "log_on_as": "LocalSystem"
+    },
+    {
+      "name": "cbdhsvc_9dd7e09",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START  (DELAYED)",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k ClipboardSvcGroup -p",
+      "log_on_as": ""
+    },
+    {
+      "name": "CDPUserSvc_9dd7e09",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k UnistackSvcGroup",
+      "log_on_as": ""
+    },
+    {
+      "name": "OneSyncSvc_9dd7e09",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START  (DELAYED)",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k UnistackSvcGroup",
+      "log_on_as": ""
+    },
+    {
+      "name": "webthreatdefusersvc_9dd7e09",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+      "log_on_as": ""
+    },
+    {
+      "name": "WpnUserService_9dd7e09",
+      "display_name": "Windows Push Notifications User Service_9dd7e09",
+      "state": "RUNNING",
+      "start_type": "2   AUTO_START",
+      "executable_path": "C:\\Windows\\system32\\svchost.exe -k UnistackSvcGroup",
+      "log_on_as": ""
+    }
+  ],
+  "running_processes": [
+    {
+      "pid": 0,
+      "name": "System Idle Process",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 4,
+      "name": "System",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 92,
+      "name": "Registry",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 436,
+      "name": "smss.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 612,
+      "name": "csrss.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 684,
+      "name": "wininit.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 692,
+      "name": "csrss.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 752,
+      "name": "winlogon.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 824,
+      "name": "services.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 848,
+      "name": "lsass.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 960,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 996,
+      "name": "fontdrvhost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1004,
+      "name": "fontdrvhost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 600,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 976,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1068,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1096,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1168,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1176,
+      "name": "dwm.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1184,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1192,
+      "name": "LogonUI.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1300,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1368,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1440,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1448,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1492,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1520,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1664,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1736,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1752,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1804,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1928,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1948,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1980,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1992,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2004,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2120,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2128,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2136,
+      "name": "Memory Compression",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2308,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2332,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2396,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2456,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2544,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2652,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2676,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2688,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2788,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2868,
+      "name": "spoolsv.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2892,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2948,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 3004,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 3012,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 3024,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 3036,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2292,
+      "name": "MpDefenderCoreService.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2376,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 500,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 3088,
+      "name": "UDSActorService.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 3100,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 3116,
+      "name": "MsMpEng.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 3124,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 3140,
+      "name": "xenagent_9_1_12_94.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 3168,
+      "name": "xenbus_monitor_9_1_11_115.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 3488,
+      "name": "xenguestagent.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 3896,
+      "name": "AggregatorHost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 4052,
+      "name": "WmiPrvSE.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 4892,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 4972,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 4120,
+      "name": "NisSrv.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 4360,
+      "name": "xendpriv.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 4512,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1728,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2808,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 5116,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 4008,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1216,
+      "name": "uhssvc.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1108,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 3556,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2368,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 972,
+      "name": "SearchIndexer.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 5088,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 4764,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 3328,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 3336,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 3384,
+      "name": "csrss.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1716,
+      "name": "winlogon.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 4244,
+      "name": "dwm.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 4088,
+      "name": "fontdrvhost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 80,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 216,
+      "name": "rdpclip.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 5004,
+      "name": "sihost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 4916,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1208,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 212,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2180,
+      "name": "taskhostw.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 5412,
+      "name": "explorer.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 5628,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 5644,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 6232,
+      "name": "SearchHost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 6244,
+      "name": "StartMenuExperienceHost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 6312,
+      "name": "Widgets.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 6372,
+      "name": "RuntimeBroker.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 6408,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 6500,
+      "name": "RuntimeBroker.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 7112,
+      "name": "dllhost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 8052,
+      "name": "ctfmon.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 6932,
+      "name": "SecurityHealthSystray.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 5972,
+      "name": "SecurityHealthService.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2584,
+      "name": "UDSActorClient.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 7380,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 4476,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1788,
+      "name": "ShellExperienceHost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 7512,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 6552,
+      "name": "RuntimeBroker.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 5704,
+      "name": "SystemSettingsBroker.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 5276,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 8216,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 9872,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 7792,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 8276,
+      "name": "taskhostw.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 8308,
+      "name": "mscopilot_proxy.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2984,
+      "name": "dllhost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 10440,
+      "name": "ApplicationFrameHost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 11964,
+      "name": "msedge.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 9344,
+      "name": "msedge.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 4496,
+      "name": "msedge.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 7768,
+      "name": "msedge.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 10660,
+      "name": "msedge.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 7120,
+      "name": "msedge.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 5888,
+      "name": "msedge.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 224,
+      "name": "RuntimeBroker.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 3832,
+      "name": "msedge.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 9796,
+      "name": "msedge.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 4856,
+      "name": "OneDrive.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 10756,
+      "name": "OneDrive.Sync.Service.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 5440,
+      "name": "WUDFHost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1936,
+      "name": "dllhost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 5068,
+      "name": "msedgewebview2.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 11136,
+      "name": "msedgewebview2.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 7288,
+      "name": "msedgewebview2.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 9904,
+      "name": "msedgewebview2.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 768,
+      "name": "msedgewebview2.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2564,
+      "name": "msedgewebview2.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 6808,
+      "name": "Code.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 5052,
+      "name": "Code.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 11924,
+      "name": "Code.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 11172,
+      "name": "Code.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 1016,
+      "name": "Code.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 8856,
+      "name": "Code.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 10780,
+      "name": "Code.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2668,
+      "name": "Code.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 10220,
+      "name": "Code.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 9640,
+      "name": "Code.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 5220,
+      "name": "Code.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 4044,
+      "name": "pet.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 356,
+      "name": "conhost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 5692,
+      "name": "OpenConsole.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 5924,
+      "name": "powershell.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 9628,
+      "name": "Code.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 11864,
+      "name": "msedge.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 720,
+      "name": "msedge.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 11876,
+      "name": "msedge.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 8984,
+      "name": "msedge.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 8676,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 9228,
+      "name": "OpenConsole.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 2108,
+      "name": "cmd.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 12140,
+      "name": "msedge.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 9192,
+      "name": "WmiPrvSE.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 11664,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 10228,
+      "name": "cmd.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 11944,
+      "name": "conhost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 9660,
+      "name": "StoreDesktopExtension.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 9832,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 9520,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 8088,
+      "name": "svchost.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 8072,
+      "name": "python.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    },
+    {
+      "pid": 7044,
+      "name": "tasklist.exe",
+      "parent_pid": null,
+      "executable_path": null,
+      "command_line": null
+    }
+  ],
+  "installed_software": [
+    {
+      "display_name": "Git",
+      "display_version": "2.54.0",
+      "publisher": "The Git Development Community",
+      "install_date": "2026-04-30"
+    },
+    {
+      "display_name": "UDS Enterprise Actor",
+      "display_version": "4.0.0.19353",
+      "publisher": "Virtual Cable S.L.U.",
+      "install_date": null
+    },
+    {
+      "display_name": "Python 3.13.12 Tcl/Tk Support (64-bit)",
+      "display_version": "3.13.12150.0",
+      "publisher": "Python Software Foundation",
+      "install_date": "2026-02-12"
+    },
+    {
+      "display_name": "Python 3.13.12 Test Suite (64-bit)",
+      "display_version": "3.13.12150.0",
+      "publisher": "Python Software Foundation",
+      "install_date": "2026-02-12"
+    },
+    {
+      "display_name": "Python 3.13.12 Standard Library (64-bit)",
+      "display_version": "3.13.12150.0",
+      "publisher": "Python Software Foundation",
+      "install_date": "2026-02-12"
+    },
+    {
+      "display_name": "Python 3.13.12 pip Bootstrap (64-bit)",
+      "display_version": "3.13.12150.0",
+      "publisher": "Python Software Foundation",
+      "install_date": "2026-02-12"
+    },
+    {
+      "display_name": "XenServer VM Tools",
+      "display_version": "9.4.1",
+      "publisher": "XenServer",
+      "install_date": "2025-06-03"
+    },
+    {
+      "display_name": "Python 3.13.12 Documentation (64-bit)",
+      "display_version": "3.13.12150.0",
+      "publisher": "Python Software Foundation",
+      "install_date": "2026-02-12"
+    },
+    {
+      "display_name": "Python 3.13.12 Add to Path (64-bit)",
+      "display_version": "3.13.12150.0",
+      "publisher": "Python Software Foundation",
+      "install_date": "2026-02-12"
+    },
+    {
+      "display_name": "Python 3.13.12 Executables (64-bit)",
+      "display_version": "3.13.12150.0",
+      "publisher": "Python Software Foundation",
+      "install_date": "2026-02-12"
+    },
+    {
+      "display_name": "Python 3.13.12 Core Interpreter (64-bit)",
+      "display_version": "3.13.12150.0",
+      "publisher": "Python Software Foundation",
+      "install_date": "2026-02-12"
+    },
+    {
+      "display_name": "GitHub CLI",
+      "display_version": "2.92.0",
+      "publisher": "GitHub, Inc.",
+      "install_date": "2026-04-30"
+    },
+    {
+      "display_name": "Microsoft Update Health Tools",
+      "display_version": "5.72.0.0",
+      "publisher": "Microsoft Corporation",
+      "install_date": "2024-12-19"
+    },
+    {
+      "display_name": "Python 3.13.12 Development Libraries (64-bit)",
+      "display_version": "3.13.12150.0",
+      "publisher": "Python Software Foundation",
+      "install_date": "2026-02-12"
+    }
+  ],
+  "installed_hotfixes": [
+    {
+      "hotfix_id": "KB5082424",
+      "description": "Update",
+      "installed_on": "4/15/2026",
+      "installed_by": "NT AUTHORITY\\SYSTEM"
+    },
+    {
+      "hotfix_id": "KB5027397",
+      "description": "Update",
+      "installed_on": "12/4/2023",
+      "installed_by": ""
+    },
+    {
+      "hotfix_id": "KB5041655",
+      "description": "Update",
+      "installed_on": "12/19/2024",
+      "installed_by": "NT AUTHORITY\\SYSTEM"
+    },
+    {
+      "hotfix_id": "KB5082052",
+      "description": "Security Update",
+      "installed_on": "4/15/2026",
+      "installed_by": "NT AUTHORITY\\SYSTEM"
+    },
+    {
+      "hotfix_id": "KB5086307",
+      "description": "Security Update",
+      "installed_on": "4/15/2026",
+      "installed_by": "NT AUTHORITY\\SYSTEM"
+    }
+  ],
+  "persistence_locations": {
+    "hklm_run": [
+      {
+        "name": "SecurityHealth",
+        "value": "%windir%\\system32\\SecurityHealthSystray.exe"
+      },
+      {
+        "name": "UDSActorTool",
+        "value": "C:\\Program Files\\UDSActor\\UDSActorClient.exe"
+      }
+    ],
+    "hkcu_run": [
+      {
+        "name": "OneDrive",
+        "value": "\"C:\\Users\\Student\\AppData\\Local\\Microsoft\\OneDrive\\OneDrive.exe\" /background"
+      },
+      {
+        "name": "MicrosoftEdgeAutoLaunch_290394BD0EF845168E86F2CBB0F0D29A",
+        "value": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --no-startup-window --win-session-start"
+      }
+    ],
+    "hklm_run_once": [],
+    "hkcu_run_once": [
+      {
+        "name": "Delete Cached Update Binary",
+        "value": "C:\\Windows\\system32\\cmd.exe /q /c del /q \"C:\\Users\\Student\\AppData\\Local\\Microsoft\\OneDrive\\Update\\OneDriveSetup.exe\""
+      },
+      {
+        "name": "Delete Cached Standalone Update Binary",
+        "value": "C:\\Windows\\system32\\cmd.exe /q /c del /q \"C:\\Users\\Student\\AppData\\Local\\Microsoft\\OneDrive\\StandaloneUpdater\\OneDriveSetup.exe\""
+      },
+      {
+        "name": "Uninstall 26.055.0323.0004",
+        "value": "C:\\Windows\\system32\\cmd.exe /q /c rmdir /s /q \"C:\\Users\\Student\\AppData\\Local\\Microsoft\\OneDrive\\26.055.0323.0004\""
+      },
+      {
+        "name": "Uninstall 26.051.0316.0004_1",
+        "value": "C:\\Windows\\system32\\cmd.exe /q /c rmdir /s /q \"C:\\Users\\Student\\AppData\\Local\\Microsoft\\OneDrive\\26.051.0316.0004_1\""
+      },
+      {
+        "name": "Uninstall 26.062.0402.0002",
+        "value": "C:\\Windows\\system32\\cmd.exe /q /c rmdir /s /q \"C:\\Users\\Student\\AppData\\Local\\Microsoft\\OneDrive\\26.062.0402.0002\""
+      },
+      {
+        "name": "Uninstall 26.055.0323.0004_1",
+        "value": "C:\\Windows\\system32\\cmd.exe /q /c rmdir /s /q \"C:\\Users\\Student\\AppData\\Local\\Microsoft\\OneDrive\\26.055.0323.0004_1\""
+      },
+      {
+        "name": "Uninstall 26.063.0405.0002",
+        "value": "C:\\Windows\\system32\\cmd.exe /q /c rmdir /s /q \"C:\\Users\\Student\\AppData\\Local\\Microsoft\\OneDrive\\26.063.0405.0002\""
+      }
+    ],
+    "all_users_startup_folder": {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup",
+      "files": [
+        "desktop.ini"
+      ]
+    },
+    "current_user_startup_folder": {
+      "path": "C:\\Users\\Student\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup",
+      "files": [
+        "desktop.ini"
+      ]
+    }
+  },
+  "scheduled_tasks": [],
+  "security_posture": {
+    "firewall": {
+      "domain_profile": {
+        "state": "OFF",
+        "logging_dropped_connections": false
+      },
+      "private_profile": {
+        "state": "OFF",
+        "logging_dropped_connections": false
+      },
+      "public_profile": {
+        "state": "OFF",
+        "logging_dropped_connections": false
+      }
+    },
+    "uac": {
+      "enabled": true,
+      "consent_prompt_behavior_admin": 5,
+      "prompt_on_secure_desktop": true
+    },
+    "bitlocker": {
+      "encryption_percentage": 0.0,
+      "encryption_method": "None",
+      "system_drive_protection_status": "Protection Off"
+    }
+  },
+  "performance_snapshot": {
+    "sample_timestamp_utc": "2026-05-04T19:33:45.840232Z",
+    "cpu_total_percent": 0.83,
+    "memory": {
+      "available_bytes": 3559915520
+    },
+    "disk_system_volume": {
+      "reads_per_sec": 0.0,
+      "writes_per_sec": 9.112699
+    },
+    "process_count": 180
+  },
+  "network_shares": [
+    {
+      "share_name": "C$",
+      "local_path": "C:\\",
+      "description": "Default share",
+      "is_administrative": true
+    },
+    {
+      "share_name": "IPC$",
+      "local_path": "Remote IPC",
+      "description": "",
+      "is_administrative": true
+    },
+    {
+      "share_name": "ADMIN$",
+      "local_path": "C:\\Windows",
+      "description": "Remote Admin",
+      "is_administrative": true
+    }
+  ]
+}

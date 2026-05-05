@@ -1,0 +1,34 @@
+{
+  "snapshot_metadata": {
+    "schema_version": "1.0",
+    "timestamp_utc": "2026-05-04T17:45:47.906673Z",
+    "hostname": "CYB125-210Win50",
+    "generated_by_user": "Student",
+    "elevated": false,
+    "script_version": "1.0.0",
+    "python_version": "3.13.12",
+    "collection_duration_seconds": 0.0,
+    "collection_warnings": []
+  },
+  "system_identity": {
+    "os_name": "Windows 10 Education",
+    "os_build": "22631",
+    "os_edition": "Education",
+    "registered_owner": "Student",
+    "install_date_utc": "2024-12-19T19:30:57Z"
+  },
+  "hardware_profile": {},
+  "network_configuration": {},
+  "listening_ports": [],
+  "local_user_accounts": {},
+  "password_policy": {},
+  "auto_start_services": [],
+  "running_processes": [],
+  "installed_software": [],
+  "installed_hotfixes": [],
+  "persistence_locations": {},
+  "scheduled_tasks": [],
+  "security_posture": {},
+  "performance_snapshot": {},
+  "network_shares": []
+}

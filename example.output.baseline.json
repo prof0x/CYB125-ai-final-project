@@ -1,0 +1,266 @@
+{
+  "snapshot_metadata": {
+    "schema_version": "1.0",
+    "timestamp_utc": "2026-05-04T09:34:01.616539Z",
+    "hostname": "CYB125-210Win50",
+    "generated_by_user": "Student",
+    "elevated": true,
+    "script_version": "1.0.0",
+    "python_version": "3.13.12",
+    "collection_duration_seconds": 19.71,
+    "collection_warnings": []
+  },
+  "system_identity": {
+    "computer_name": "CYB125-210Win50",
+    "os_name": "Windows 10 Education",
+    "os_build": "22631",
+    "os_edition": "Education",
+    "registered_owner": "Student",
+    "registered_organization": "",
+    "product_id": "00328-00000-00000-AA097",
+    "os_version": "10.0.22631",
+    "install_date_utc": "2024-12-19T19:30:57Z",
+    "last_boot_utc": "4/14/2026, 10:03:09 PM",
+    "uptime_seconds": null,
+    "time_zone": "US Mountain Standard Time",
+    "domain_or_workgroup": "WORKGROUP",
+    "is_domain_joined": false
+  },
+  "hardware_profile": {
+    "cpu": {
+      "name": "Intel(R) Xeon(R) Platinum 8280 CPU @ 2.70GHz",
+      "manufacturer": "GenuineIntel",
+      "max_clock_mhz": 2694,
+      "architecture": "AMD64",
+      "logical_processors": 2,
+      "physical_cores": null
+    },
+    "memory": {
+      "total_physical_bytes": 8580497408
+    },
+    "bios": {
+      "manufacturer": "Xen",
+      "version": "4.17",
+      "release_date": "03/24/2026"
+    },
+    "system": {
+      "manufacturer": "Xen",
+      "model": "HVM domU"
+    },
+    "logical_disks": [
+      {
+        "drive_letter": "C:",
+        "filesystem": "NTFS",
+        "total_size_bytes": 53008658432,
+        "free_space_bytes": 19430010880
+      },
+      {
+        "drive_letter": "D:",
+        "filesystem": "",
+        "total_size_bytes": null,
+        "free_space_bytes": null
+      }
+    ]
+  },
+  "network_configuration": {
+    "primary_dns_suffix": "",
+    "adapters": [
+      {
+        "name": "Ethernet 2",
+        "description": "XenServer PV Network Device",
+        "mac_address": "02-46-00-00-01-BF",
+        "dhcp_enabled": true,
+        "ipv4_addresses": [
+          "172.16.16.6"
+        ],
+        "ipv4_subnet_mask": "255.255.255.0",
+        "default_gateway": "172.16.16.1",
+        "dns_servers": [
+          "172.16.11.10"
+        ]
+      }
+    ]
+  },
+  "listening_ports": [
+    {
+      "protocol": "TCP",
+      "local_address": "0.0.0.0",
+      "local_port": 135,
+      "state": "LISTENING",
+      "owning_pid": 600,
+      "owning_process_name": "svchost.exe"
+    }
+  ],
+  "local_user_accounts": {
+    "current_user": "cyb125-210win50\\student",
+    "users": [
+      {
+        "username": "Administrator",
+        "full_name": "Name",
+        "sid": null,
+        "disabled": true,
+        "password_required": true,
+        "password_changeable": true,
+        "password_expires": false,
+        "last_logon_utc": "Never"
+      }
+    ],
+    "administrators_group_members": [
+      "Administrator",
+      "Student"
+    ]
+  },
+  "password_policy": {
+    "minimum_password_length": 0,
+    "minimum_password_age_days": 0,
+    "maximum_password_age_days": 42,
+    "password_history_length": null,
+    "lockout_threshold": 10,
+    "lockout_duration_minutes": 10,
+    "lockout_observation_window_minutes": 10,
+    "force_logoff_after_minutes": null
+  },
+  "auto_start_services": [
+    {
+      "name": "AudioEndpointBuilder",
+      "display_name": "Windows Audio Endpoint Builder",
+      "state": "RUNNING",
+      "start_type": "Auto",
+      "executable_path": "C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+      "log_on_as": "LocalSystem"
+    }
+  ],
+  "running_processes": [
+    {
+      "pid": 0,
+      "parent_pid": null,
+      "name": "System Idle Process",
+      "executable_path": null,
+      "command_line": null
+    }
+  ],
+  "installed_software": [
+    {
+      "display_name": "Git",
+      "display_version": "2.54.0",
+      "publisher": "The Git Development Community",
+      "install_date": "2026-04-30",
+      "registry_hive": "HKLM",
+      "is_64_bit": true
+    }
+  ],
+  "installed_hotfixes": [
+    {
+      "hotfix_id": "KB5082424",
+      "description": "Update",
+      "installed_on": null,
+      "installed_by": "NT AUTHORITY\\SYSTEM"
+    }
+  ],
+  "persistence_locations": {
+    "hklm_run": [
+      {
+        "name": "SecurityHealth",
+        "value": "%windir%\\system32\\SecurityHealthSystray.exe"
+      },
+      {
+        "name": "UDSActorTool",
+        "value": "C:\\Program Files\\UDSActor\\UDSActorClient.exe"
+      }
+    ],
+    "hkcu_run": [
+      {
+        "name": "OneDrive",
+        "value": "\"C:\\Users\\Student\\AppData\\Local\\Microsoft\\OneDrive\\OneDrive.exe\" /background"
+      }
+    ],
+    "hklm_run_once": [],
+    "hkcu_run_once": [
+      {
+        "name": "Delete Cached Update Binary",
+        "value": "C:\\Windows\\system32\\cmd.exe /q /c del /q \"C:\\Users\\Student\\AppData\\Local\\Microsoft\\OneDrive\\Update\\OneDriveSetup.exe\""
+      }
+    ],
+    "all_users_startup_folder": {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup",
+      "files": [
+        "desktop.ini"
+      ]
+    },
+    "current_user_startup_folder": {
+      "path": "C:\\Users\\Student\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup",
+      "files": [
+        "desktop.ini"
+      ]
+    }
+  },
+  "scheduled_tasks": [
+    {
+      "task_name": "\\MicrosoftEdgeUpdateTaskMachineCore",
+      "status": "Ready",
+      "next_run_time": "5/4/2026 5:59:22 AM",
+      "last_run_time": "5/3/2026 5:59:23 AM",
+      "last_result": "0",
+      "author": "N/A",
+      "task_to_run": "C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe /c"
+    }
+  ],
+  "security_posture": {
+    "firewall": {
+      "domain_profile": {
+        "state": "ON",
+        "default_inbound_action": null,
+        "default_outbound_action": null,
+        "logging_dropped_connections": false
+      },
+      "private_profile": {
+        "state": "ON",
+        "default_inbound_action": null,
+        "default_outbound_action": null,
+        "logging_dropped_connections": false
+      },
+      "public_profile": {
+        "state": "ON",
+        "default_inbound_action": null,
+        "default_outbound_action": null,
+        "logging_dropped_connections": false
+      }
+    },
+    "windows_defender": {
+      "antivirus_enabled": true,
+      "real_time_protection_enabled": true,
+      "antivirus_signature_age_days": 0,
+      "antivirus_signature_version": "1.449.438.0"
+    },
+    "uac": {
+      "enabled": true,
+      "consent_prompt_behavior_admin": 5,
+      "prompt_on_secure_desktop": true
+    },
+    "bitlocker": {
+      "system_drive_protection_status": "Protection Off",
+      "encryption_method": "None",
+      "encryption_percentage": 0.0
+    }
+  },
+  "performance_snapshot": {
+    "sample_timestamp_utc": "2026-05-04T09:34:14.896957Z",
+    "cpu_total_percent": 42.21,
+    "memory": {
+      "available_bytes": 3739222016
+    },
+    "disk_system_volume": {
+      "reads_per_sec": 10.73,
+      "writes_per_sec": 35.67
+    },
+    "process_count": 180
+  },
+  "network_shares": [
+    {
+      "share_name": "C$",
+      "local_path": "C:\\",
+      "description": "Defaultshare",
+      "is_administrative": true
+    }
+  ]
+}
