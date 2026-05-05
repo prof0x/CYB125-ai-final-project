@@ -321,10 +321,62 @@ def get_system_identity(snapshot):
 def get_password_policy(snapshot):
     info = {}
     try:
-        # TODO Milestone 3: parse `net accounts` and populate the 7 fields
-        # listed in the comment block above. Use run_command() to invoke
-        # the command, then walk its output line by line.
-        pass
+        # Run the 'net accounts' command to get Windows password policy settings.
+        # This command outputs lines like "Minimum password length: 0" or "Maximum password age (days): Never".
+        # We use run_command() instead of subprocess.run directly to follow the project's pattern.
+        output = run_command(["net", "accounts"])
+        
+        # If the command failed (output is empty string), we can't parse anything, so return empty dict.
+        # The try/except around the whole function will catch this and add a warning.
+        if not output:
+            return info
+        
+        # Create a mapping from the label text in 'net accounts' output to our JSON field names.
+        # This makes it easy to look up which field each line corresponds to.
+        # Note: We use the exact label text as it appears in the command output.
+        label_to_field = {
+            "Minimum password length": "minimum_password_length",
+            "Minimum password age (days)": "minimum_password_age_days",
+            "Maximum password age (days)": "maximum_password_age_days",
+            "Length of password history maintained": "password_history_length",
+            "Lockout threshold": "lockout_threshold",
+            "Lockout duration (minutes)": "lockout_duration_minutes",
+            "Lockout observation window (minutes)": "lockout_observation_window_minutes"
+        }
+        
+        # Split the output into lines and process each one.
+        # The output includes headers and blank lines, but we only care about lines with colons.
+        for line in output.splitlines():
+            # Skip blank lines or lines that don't contain a colon (not label:value format).
+            if ":" not in line:
+                continue
+            
+            # Split on the first colon only (in case the value itself contains colons).
+            # For example, "Maximum password age (days): Never" splits to ["Maximum password age (days)", " Never"].
+            parts = line.split(":", 1)
+            if len(parts) != 2:
+                continue
+            
+            # Remove leading/trailing whitespace from both the label and value.
+            # This handles indentation and extra spaces in the command output.
+            label = parts[0].strip()
+            value_str = parts[1].strip()
+            
+            # If this label is one we care about, process it.
+            if label in label_to_field:
+                field_name = label_to_field[label]
+                
+                # Try to convert the value to an integer.
+                # If it succeeds, store the integer.
+                # If it fails (ValueError, because it's "Never"), store None.
+                # This handles the requirement: integers or None, never the string "Never".
+                # Note: We could use a regex to check for digits, but try/except is simpler and more robust.
+                try:
+                    info[field_name] = int(value_str)
+                except ValueError:
+                    # If conversion fails (e.g., "Never"), set to None.
+                    # We could also check if value_str == "Never", but try/except handles any non-numeric value.
+                    info[field_name] = None
     except Exception as e:
         add_warning(snapshot, "password_policy failed: " + str(e))
     return info

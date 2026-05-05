@@ -75,8 +75,8 @@ def main():
     snapshot["system_identity"] = helpers.get_system_identity(snapshot)
 
     # ===== Milestone 3 =====
-    # print("Collecting password policy...")
-    # snapshot["password_policy"] = helpers.get_password_policy(snapshot)
+    print("Collecting password policy...")
+    snapshot["password_policy"] = helpers.get_password_policy(snapshot)
 
     # ===== Milestone 4 =====
     # print("Collecting installed software...")
